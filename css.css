@@ -1,0 +1,62 @@
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+background-color:#141c44e0 ;
+margin: 0px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+#menu{
+    justify-content: space-between
+    
+}
+#menu ul{
+    background-color:lightslategrey;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    list-style: none;
+}
+#menu ul li{
+    display: inline;
+
+}
+#menu ul li a{
+    padding: 50px 50px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section{
+    background-color: teal;
+    width: 1349px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submenu li{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#submenu li a{
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+.copy{
+   display: flex;
+   justify-content: center;
+}
